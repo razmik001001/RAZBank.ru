@@ -1,0 +1,115 @@
+.footer-columns {
+	 display: flex;
+}
+.footer-column {
+	 flex: 50%;
+margin: 20px;
+}
+
+header, footer {
+	 background-color: #9debf5;
+padding: 10px;
+}
+
+main {
+padding: 10px;
+background-color: silver;
+}
+.post {
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+margin-bottom: 20px;
+	 display: flex;
+}
+.post img {
+margin: 20px;
+}
+.post-info {
+color: qrey;
+}
+coment { 
+background-color: white ;
+padding : 20px;
+margin-top: 10px ;
+} 
+author {
+margin-top : 0px;
+margin-bottom: 10px;
+} 
+.date {
+color: silver; 
+margin-top:0px;
+margin-bottom:10px;
+}
+#sub-comment {
+margin-left: 40px;
+}
+#menul{
+position: relative;
+display:block;
+width : 100%;
+height: auto;
+z-index: 10;
+}
+#menul ul{
+position: relative;
+display:block;
+margin:0px;
+width: 100%
+height: auto;
+list-style: none;
+}
+#menul> ul::aftewr{
+display: Block;
+width: 100%
+height: 0px;
+clear:both 
+content: "  ";
+}
+#menul ul li{
+position:relative;
+display: block;
+float: left;
+width:auto;
+height:auto;
+}
+#menul ul li a {
+display:block;
+padding: 9px 25px 0px 25px ;
+font-size:14px;
+line-height: 1.3em;
+text-decoration: none;
+font-weight:bold;.
+text-transform: uppercase;
+height: 36px;
+box-sizing: border-box;
+color:white;
+}
+#menu1 ul li ul li{
+float: none;
+width: 100%;
+}
+
+#menu1 ul li ul li a{
+display: block;
+text-transform: none;
+height: auto;
+padding: 7px 25px;
+width: 100%;
+box-sizing: border-box;
+border-top: 1px solid #ffffff;
+color: white;
+}
+
+#menu1 ul li ul li:first-child a{
+border-top: 0px;
+}
+
+
+
+
+
+
+
+

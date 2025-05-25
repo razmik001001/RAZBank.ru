@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Сюда вписать описание страницы">
+		<meta name="keywords" content="Сюда вписать ключевые слова">
+		<meta name="author" content="Roman">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<title>ШАБЛОННАЯ СТРАНИЦА</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	
+	</head>
+
+	<body>
+
+
+  <!-- HEADER -->
+<header>
+ <img decoding="async" src="https://i.postimg.cc/Z56k7m9M/IMG-3430.jpg" width="250"
+</head>
+<body>
+
+    
+
+</header>
+
+<nav id="menul">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Меню сайта</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Стили навигации */
+    nav {
+      background-color: #333;
+    }
+
+    /* Кнопка меню */
+    .menu-button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 14px 20px;
+      font-size: 18px;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+    }
+
+    /* Ссылки меню */
+    .menu-links {
+      display: none;
+      background-color: #444;
+      flex-direction: column;
+    }
+
+    .menu-links a {
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-top: 1px solid #555;
+    }
+
+    .menu-links a:hover {
+      background-color: #555;
+    }
+
+    /* Показываем меню при открытии */
+    .menu-links.show {
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <button class="menu-button" onclick="toggleMenu()">☰ Меню</button>
+  <div class="menu-links" id="menuLinks">
+    <a href="#menu">Меню</a>
+    <a href="#about">О нас</a>
+    <a href="#contact">Контакты</a>
+  </div>
+</nav>
+
+
+</body>
+</html>
+</nav>
+
+</body>
+</html>
+<!-- register.html -->
+<form action="register.php" method="POST">
+  <label>Имя пользователя:</label><br>
+  <input type="text" name="username" required><br><br>
+
+  <label>Email:</label><br>
+  <input type="email" name="email" required><br><br>
+
+  <label>Пароль:</label><br>
+  <input type="password" name="password" required><br><br>
+
+  <input type="submit" value="Зарегистрироваться">
+</form>
+<body>
+</body>
+  </form>
+</html>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Заказ карты</title>
+</head>
+<body>
+  <h1>Заказать карту</h1>
+
+  <form id="cardForm">
+    <label for="cardType">Выберите тип карты:</label><br>
+    <select id="cardType" name="cardType" required>
+      <option value="">-- Выберите --</option>
+      <option value="black">Карта Black</option>
+      <option value="credit">Кредитная карта</option>
+      <option value="business">Бизнес-карта</option>
+    </select><br><br>
+
+    <label for="address"> Город и адрес доставки :</label><br>
+    <input type="text" id="address" name="address" placeholder="Введите адрес" required><br><br>
+
+    <button type="submit">Оформить</button>
+  </form>
+
+  <p id="confirmationMessage" style="display:none; color: green; font-weight: bold;"></p>
+
+  <script>
+    document.getElementById('cardForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const cardType = document.getElementById('cardType').value;
+      const address = document.getElementById('address').value;
+
+      if (cardType && address) {
+        document.getElementById('confirmationMessage').innerText =
+          `Спасибо! Ваша ${cardType === 'black' ? 'карта Black' :
+                         cardType === 'credit' ? 'кредитная карта' : 'бизнес-карта'} будет доставлена по адресу "${address}" в течение 2 недель.`;
+        document.getElementById('confirmationMessage').style.display = 'block';
+        document.getElementById('cardForm').reset();
+      }
+    });
+  </script>
+</body>
+</html>
+</body>
+</html>
+<!-- MAIN -->
+<main>
+<div>
+	<div class="post">
+		<img decoding="async" height="230" 
+		<img src="https://sun6-22.userapi.com/impf/c540101/v540101663/246b0/9MG3s2uzCl4.jpg?size=800x673&quality=96&sign=bf6e6eb9d4e9bc67c66fb3ad3a029cb9&c_uniq_tag=cWBJR3TN5BZzvXycCmC6ltswIR9KE2SOg1I_spIyWOM&type=album" width="504" height="506">
+		<div>
+			<h3> в чем разница между кредитной картой и дебетовой?</h3>
+			<p>
+			Кредитная карта использует заёмные средства банка, которые владелец должен вернуть позже с возможными процентами.  
+			Дебетовая карта использует собственные средства владельца.  
+			</p>
+			<a href="#">Подробнее</a>
+		</div>
+	</div>
+	
+		<div class="post">
+		<img decoding="async" height="230" 
+		<img src="https://api-reforum.banki.ru/reforum/c7/e4/ad/8f/e9/siglsjdb4d025f73.png" width="504" height="506">
+		<div>
+			<h3>для чего нужна наша дебетовая карта ? </h3>
+			<p>
+		Дебетовая карта нужна, чтобы хранить и распоряжаться собственными деньгами. К ней привязан счёт в банке, а карта выступает своего рода ключом к этому счёту. Тратить можно не больше, чем на нём имеется
+			</p>
+				<a href="#">Подробнее</a>
+		</div>
+	</div>
+
+</div>
+<div class="post">
+		<img decoding="async" height="230" 
+		<img src="https://i.postimg.cc/6qjRZcQk/IMG-3446.jpg" width="504" height="506">
+		<div>
+			<h3>наши дебетовые карты</h3>
+			<p>
+	карта блек
+			</p>
+				<a href="#">Подробнее</a>
+		</div>	
+</div>
+<div class="post">
+		<img decoding="async" height="230" 
+		<img src="https://i.postimg.cc/13Lh9ZyF/IMG-3445.jpg" width="504" height="506">
+		<div>
+			<h3>наши дебетовые карты</h3>
+			<p>
+	карта для кредита
+			</p>
+				<a href="#">Подробнее</a>
+<div>
+<div>
+<div class="post">
+		<img decoding="async" height="230" 
+		<img src="https://i.postimg.cc/28jPCcTt/562-20250517231539.png" width="504" height="506">
+		<div>
+			<h3>наши дебетовые карты</h3>
+			<p>
+	карта бизнес
+			</p>
+				<a href="#">Подробнее</a>
+<div>
+</main>
+<title>Отзывы</title>
+  <style>
+    .review-container {
+      max-width: 600px;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+    .review {
+      border-bottom: 1px solid #ccc;
+      padding: 15px 0;
+    }
+    .stars {
+      color: gold;
+      font-size: 20px;
+    }
+    .review-text {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="review-container">
+    <div class="review">
+      <div class="stars">★★★★★</div>
+      <div class="review-text">Отличный продукт! Все соответствует описанию спасибо за карту .</div>
+    </div>
+    <div class="review">
+      <div class="stars">★★★★☆</div>
+      <div class="review-text">Хорошо, но доставка немного задержалась.</div>
+    </div>
+    <div class="review">
+      <div class="stars">★★★☆☆</div>
+      <div class="review-text">Средне. Качество могло быть лучше.</div>
+    </div>
+  </div>
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div>
+      <div>
+          <img decoding="async" src="https://i.postimg.cc/Z56k7m9M/IMG-3430.jpg" width="250"
+      </div>
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3>О нас</h3>
+          <p>
+        мы начинающая компания  ЭТО НЕ НАСТОЯЩИЙ БАНК Я ПРОГРАМИСТ Я СОЗДАЮ РАЗНЫЕ САЙТЫ!
+          </p>
+		  
+	</div> 
+	<div class ="coment" id="sub-comment
+        <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Отзывы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="reviews">
+       
+        </div>
+		</div>
+        <div class="footer-column">
+          <h3>Свяжитесь с нами</h3>
+          <p>
+             свяжитесь с нами
+            <br><strong>Email: <a href="#">razmikk01@yandex.ru</a></strong>
+          </p>
+          </div>
+      </div>
+    </div>
+    <center>
+      <small>Copyright &copy; 2025</small>
+    </center>
+  </div>
+</footer>
+  
+  	</body>
+
+</html>
